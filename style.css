@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 36px;
+}
+p {
+    font-size: 16px;
+}
+.center {
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 50px;
+    border-radius: 100px;
+    background-color: #e2543b;
+    color: #fff;
+    transition: .3s;
+}
+.btn:hover {
+    background-color: #642b21d8;
+}
+.heading {
+    font-size: 30px;
+    font-weight: 800;
+    color: #696767;
+    position: relative;
+}
+.heading::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: #e2543b;
+    position: absolute;
+    top: 45px;
+    right: 47%;
+}
+
+
+
+
+
+
+/* Start header */
+.header {
+    padding: 0 120px;
+    background-color: #f5e0dd;
+}
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.navbar .logo {
+    width: 180px;
+    height: 55px;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+}
+.navbar ul a {
+    text-decoration: none;
+    color: gray;
+}
+.navbar ul a:hover {
+    color: #3d3c3c;
+}
+.navbar ul a .fas {
+    color: #5a5959;
+    font-size: 22px;
+}
+
+.content {
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0 50px;
+    text-align: left;
+}
+.content div {
+    width: 50%;
+}
+.content img {
+    width: 90%;
+}
+.content h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.content p {
+    font-weight: 500;
+    color: gray;
+    margin: 30px 0;
+}
+.content-img {
+    text-align: right;
+}
+/* End header */
+
+
+/* Start Categories */
+.categories {
+    justify-content: center;
+    padding: 60px 150px;
+}
+.categories img {
+    width: 30%;
+}
+.categories img:nth-child(2) {
+    margin: 0 40px;
+}
+/* End Categories */
+
+
+/* Start featured-products */
+.product-list {
+    padding: 30px 150px;
+    justify-content: space-between;
+}
+.product {
+    width: 25%;
+    margin: 0 16px;
+}
+.product img {
+    width: 100%;
+}
+.product strong {
+    color: #6b6969;
+    display: inline-block;
+    margin: 5px 0;
+}
+.ratings i {
+    color: #e2543b;
+}
+/* End featured-products */
+
+
+/* Start Latest-products */
+.latest-products {
+    padding-bottom: 60px;
+}
+/* End Latest-products */
