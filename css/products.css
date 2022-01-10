@@ -1,0 +1,28 @@
+.navigation {
+    padding: 0 120px;
+    margin-bottom: 100px;
+}
+.products {
+    padding: 0 80px;
+}
+.product-list {
+    margin-top: 30px;
+}
+.page-title {
+    padding: 0 150px;
+    justify-content: space-between;
+}
+.page-title strong {
+    font-size: 25px;
+    font-weight: 800;
+}
+.page-title select {
+    border: 1px solid #e2543b;
+}
+.btn-list {
+    padding: 0 100px;
+    margin-bottom: 80px;
+}
+.btn-list li {
+    display: inline-block;
+}

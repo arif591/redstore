@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedStore | Ecomerce Website</title>
+    <title>All Products</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- My Styles -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- My styles -->
+    <link rel="stylesheet" href="css/products.css">
     <link rel="stylesheet" href="css/root.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="navigation">
         <nav class="navbar flex">
             <img src="./images/logo.png" alt="" class="logo">
             <ul>
@@ -28,25 +28,19 @@
                 <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
             </ul>
         </nav>
-        <div class="content flex">
-            <div class="content-text">
-                <h1>Give your Workout <br>A New Style!</h1>
-                <p>Success isn't always about greatness. It's about consistency. Consistent<br> hard work gains success.
-                    Greatness will come.</p>
-                <a href="#" class="btn">Explore Now &rarr;</a>
-            </div>
-            <div class="content-img">
-                <img src="./images/image1.png" alt="">
-            </div>
-        </div>
     </header>
-    <section class="categories flex">
-        <img src="./images/category-1.jpg" alt="">
-        <img src="./images/category-2.jpg" alt="">
-        <img src="./images/category-3.jpg" alt="">
-    </section>
-    <section class="featured-products">
-        <h2 class="heading center">Featured Products</h2>
+
+    <section class="products">
+        <div class="page-title flex">
+            <strong>All Products</strong>
+            <select name="filter" id="filter">
+                <option value="deffault" selected>Deffault Shorting</option>
+                <option value="place">Short by place</option>
+                <option value="popularity">Short by popularity</option>
+                <option value="rating">Short by rating</option>
+                <option value="sale">Short by sale</option>
+            </select>
+        </div>
         <div class="product-list flex">
             <div class="product">
                 <img src="./images/product-1.jpg" alt="">
@@ -97,9 +91,6 @@
                 <strong>$55.00</strong>
             </div>
         </div>
-    </section>
-    <section class="latest-products">
-        <h2 class="heading center">Latest Products</h2>
         <div class="product-list flex">
             <div class="product">
                 <img src="./images/product-5.jpg" alt="">
@@ -200,70 +191,15 @@
                 <strong>$75.00</strong>
             </div>
         </div>
-    </section>
-    <section class="exclusive-offer flex">
-        <div class="offer-img">
-            <img src="./images/exclusive.png" alt="">
+        <div class="btn-list">
+            <ul>
+                <li><a href="#" class="secondery-btn">1</a></li>
+                <li><a href="#" class="secondery-btn">2</a></li>
+                <li><a href="#" class="secondery-btn">3</a></li>
+                <li><a href="#" class="secondery-btn">4</a></li>
+                <li><a href="#" class="secondery-btn">&rarr;</a></li>
+            </ul>
         </div>
-        <div class="offer-text">
-            <strong>Exclusivly Available on RedStore</strong>
-            <h2>Smart Band 4</h2>
-            <p>Mi Smart Band 4 · Color AMOLED full-touch display · Water resistant up to 50m. <br>Up to 20 days of
-                battery
-                life · 24/7 heart monitoring · Music and volume controls.</p>
-            <a href="" class="btn">Buy Now &rarr;</a>
-        </div>
-    </section>
-    <section class="testimonial flex">
-        <div class="review">
-            <h2><i class="fas fa-quote-left"></i></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt aliquam optio magni. Veritatis libero
-                adipisci, accusantium quas sed amet soluta.</p>
-            <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <img src="./images/user-1.png" alt="">
-            <p><strong>Sean Parkor</strong></p>
-        </div>
-        <div class="review">
-            <h2><i class="fas fa-quote-left"></i></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt aliquam optio magni. Veritatis libero
-                adipisci, accusantium quas sed amet soluta.</p>
-            <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <img src="./images/user-2.png" alt="">
-            <p><strong>Mike Smith</strong></p>
-        </div>
-        <div class="review">
-            <h2><i class="fas fa-quote-left"></i></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt aliquam optio magni. Veritatis libero
-                adipisci, accusantium quas sed amet soluta.</p>
-            <div class="ratings">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-            <img src="./images/user-3.png" alt="">
-            <p><strong>Mabel Joe</strong></p>
-        </div>
-    </section>
-    <section class="brands flex">
-        <img src="./images/logo-godrej.png" alt="">
-        <img src="./images/logo-oppo.png" alt="">
-        <img src="./images/logo-coca-cola.png" alt="">
-        <img src="./images/logo-paypal.png" alt="">
-        <img src="./images/logo-philips.png" alt="">
     </section>
 
     <footer class="footer" id="footer">
@@ -301,6 +237,7 @@
         </div>
         <p class="center">Copyright 2022 Ariful Islam</p>
     </footer>
+
 </body>
 
 </html>

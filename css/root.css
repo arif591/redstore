@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -40,6 +42,23 @@ a {
 .btn:hover {
     background-color: #642b21d8;
 }
+.secondery-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background: #fff;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #d46956;
+    transition: .3s;
+}
+.secondery-btn:hover {
+    background-color: #e2543b;
+    color: #fff;
+    border: 1px solid #e2543b;
+}
 .heading {
     font-size: 30px;
     font-weight: 800;
@@ -56,16 +75,6 @@ a {
     right: 47%;
 }
 
-
-
-
-
-
-/* Start Header */
-.header {
-    padding: 0 120px;
-    background-color: #f5e0dd;
-}
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -91,44 +100,6 @@ a {
     font-size: 22px;
 }
 
-.content {
-    justify-content: space-between;
-    align-items: center;
-    padding: 90px 0 50px;
-    text-align: left;
-}
-.content div {
-    width: 50%;
-}
-.content img {
-    width: 90%;
-}
-.content h1 {
-    font-size: 50px;
-    font-weight: 800;
-}
-.content p {
-    font-weight: 500;
-    color: gray;
-    margin: 30px 0;
-}
-.content-img {
-    text-align: right;
-}
-
-
-/* Start Categories */
-.categories {
-    justify-content: center;
-    padding: 60px 150px;
-}
-.categories img {
-    width: 30%;
-}
-.categories img:nth-child(2) {
-    margin: 0 40px;
-}
-
 
 /* Start Featured-products */
 .product-list {
@@ -150,85 +121,6 @@ a {
 .ratings i {
     color: #e2543b;
 }
-
-
-/* Start Latest-products */
-.latest-products {
-    padding-bottom: 60px;
-}
-
-
-/* Start Exclusive-offer */
-.exclusive-offer {
-    background-color: #f5e0dd;
-    padding: 70px 120px;
-    justify-content: center;
-    align-items: center;
-}
-.offer-img {
-    width: 45%;
-}
-.offer-img img {
-    width: 75%;
-}
-.offer-text {
-    width: 55%;
-}
-.offer-text strong {
-    color: #6b6969;
-    font-weight: 900;
-}
-.offer-text p {
-    color: #6b6969;
-    margin: 25px 0;
-}
-
-
-/* Start Testimonials */
-.testimonial {
-    padding: 70px 120px;
-}
-.review {
-    width: 33%;
-    text-align: center;
-    padding: 20px;
-    margin: 0 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 15px grey;
-}
-.review img {
-    width: 22%;
-    border-radius: 50%;
-}
-.review i {
-    color: #e2543b;
-    margin: 20px 0 30px;
-}
-.review h2,.review h2 i {
-    margin: 10px 0;
-}
-.review p {
-    color: gray;
-    margin: 0px;
-}
-.review strong {
-    color: #6b6969;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.brands {
-    padding: 40px 120px 80px;
-    justify-content: space-between;
-}
-.brands img {
-    margin: 0 20px;
-    filter: grayscale(100%);
-}
-.brands img:hover {
-    filter: grayscale(0%);
-}
-
 
 /* Start Footer */
 .footer {
@@ -262,8 +154,5 @@ a {
     padding: 0;
 }
 .footer-column ul a {
-    padding: 3px 0;
+    margin: 5px 0;
 }
-
-
-
