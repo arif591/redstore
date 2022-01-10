@@ -51,7 +51,7 @@ p {
 
 
 
-/* Start header */
+/* Start Header */
 .header {
     padding: 0 120px;
     background-color: #f5e0dd;
@@ -109,7 +109,6 @@ p {
 .content-img {
     text-align: right;
 }
-/* End header */
 
 
 /* Start Categories */
@@ -123,10 +122,9 @@ p {
 .categories img:nth-child(2) {
     margin: 0 40px;
 }
-/* End Categories */
 
 
-/* Start featured-products */
+/* Start Featured-products */
 .product-list {
     padding: 30px 150px;
     justify-content: space-between;
@@ -146,11 +144,43 @@ p {
 .ratings i {
     color: #e2543b;
 }
-/* End featured-products */
 
 
 /* Start Latest-products */
 .latest-products {
     padding-bottom: 60px;
 }
-/* End Latest-products */
+
+
+/* Start Exclusive-offer */
+.exclusive-offer {
+    background-color: #f5e0dd;
+    padding: 70px 120px;
+    justify-content: center;
+    align-items: center;
+}
+.offer-img {
+    width: 45%;
+}
+.offer-img img {
+    width: 75%;
+}
+.offer-text {
+    width: 55%;
+}
+.offer-text strong {
+    color: #6b6969;
+    font-weight: 900;
+}
+.offer-text p {
+    color: #6b6969;
+    margin: 25px 0;
+}
+
+
+/* Start Testimonials */
+
+
+
+
+
